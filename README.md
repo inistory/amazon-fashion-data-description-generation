@@ -41,13 +41,21 @@ model을 fine tuning 하기 위해서는 new line 으로 저장 된 문서가 �
     --per_device_train_batch_size=2 \ #default=8
     --num_train_epochs 3 \ #default=3
 ```
-## 2. text generation
+## 2. Input text generation
+
+- description data가 존재하지 않은 데이터의 description 생성을 위해 최소한의 input이 필요함
 
 - KeyBERT를 사용하여 input text 생성 : https://github.com/MaartenGr/KeyBERT
 
-- KeyBERT : pretrained BERT 을 사용하여 주어진 문서와 각 어구를 임베딩, 서로의 similarity을 계산해 문서를 대표하는 keyphase를 채택
+- KeyBERT : pretrained BERT 을 사용하여 주어진 문서와 각 어구(n-gram)를 임베딩, 서로의 cosine similarity을 계산해 문서를 대표하는 keyphase를 채택
 
 - amazon fashion data의 상품별 review text들을 합친 것을 input으로 하여 상품별 keyPhrase들을 생성 (description_keyphrases_v1.csv)
+
+![image](https://user-images.githubusercontent.com/53829167/122163900-dea73c80-ceb0-11eb-931c-62f51513fd7b.png)
+
+
+
+## 3. text generation
 
 - 1),2) 의 결과를 비교하여 둘 중 더 괜찮은 결과를 사용
 
