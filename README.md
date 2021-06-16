@@ -2,11 +2,11 @@
 
 - amazon fashion data에는 상품에 대해 간략히 설명하는 description 이 존재
 
-- description이 존재하지 않는 상품의 description을 생성하려 함
+- description이 존재하지 않는 상품의 description을 GPT2을 이용하여 생성하려 함
 
-- input 생성 방법 : keyphrase extraction by KeyBERT 
+    - input 생성 방법 : keyphrase extraction by KeyBERT 
 
-- text generation : GPT-2
+    - text generation : GPT-2
 
 ## Colab link
 https://colab.research.google.com/drive/1f8GGTGI-P5nbgxJYIZhbuAgl5pXI21bE?usp=sharing
