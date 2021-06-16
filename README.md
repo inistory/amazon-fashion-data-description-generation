@@ -32,7 +32,7 @@ model을 fine tuning 하기 위해서는 new line 으로 저장 된 문서가 �
 ```python
 ! python /content/transformers/examples/pytorch/language-modeling/run_clm.py \
     --model_name_or_path gpt2 \
-    --train_file /content/data/training data/train.txt \ #train file path
+    --train_file /data/training data/train.txt \ #train file path
     --validation_file /data/training data/valid.txt \ #validation file path
     --do_train \
     --do_eval \
