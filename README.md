@@ -1,4 +1,4 @@
-# GPT-2 로 amazon fashion data 의 description 생성
+# Amazon fashion data 의 description 생성하기
 
 - input 생성 방법 : keyphrase extraction by KeyBERT 
 
