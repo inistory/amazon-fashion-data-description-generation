@@ -55,7 +55,7 @@ model을 fine tuning 하기 위해서는 new line 으로 저장 된 문서가 �
 
 - amazon fashion data의 상품별 review text들을 합친 것을 input으로 하여 상품별 keyPhrase들을 생성 (description_keyphrases_v1.csv)
 
-![image](https://user-images.githubusercontent.com/53829167/122163900-dea73c80-ceb0-11eb-931c-62f51513fd7b.png)
+![image](https://user-images.githubusercontent.com/53829167/122164531-e61b1580-ceb1-11eb-8572-26300603a96d.png)
 
 
 
