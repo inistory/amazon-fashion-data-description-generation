@@ -59,7 +59,7 @@ model을 fine tuning 하기 위해서는 new line 으로 저장 된 문서가 �
 
 
 
-## 3. text generation
+## 3. Description generation
 
 - 1),2) 의 결과를 비교하여 둘 중 더 괜찮은 결과를 사용
 
