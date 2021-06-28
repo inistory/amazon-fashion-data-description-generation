@@ -1,8 +1,8 @@
 # Amazon fashion data 의 description 생성하기
 
-- amazon fashion data에는 상품에 대해 간략히 설명하는 description 이 존재
+-Aamazon fashion data에는 상품에 대해 간략히 설명하는 description 이 존재
 
-- description이 존재하지 않는 상품의 description을 GPT2을 이용하여 생성하려 함
+- Description이 존재하지 않는 상품의 Description을 GPT2을 이용하여 생성하려 함
 
     - input 생성 방법 : keyphrase extraction by KeyBERT 
 
